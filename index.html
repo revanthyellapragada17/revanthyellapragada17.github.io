@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revanth Yellapragada - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="hero">
+      <div class="typing-container">
+        <h1 id="typed-name"></h1>
+        <p>Michigan, USA</p>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated Front-End Developer with over three years of experience
+        in building user-centric applications that enhance digital engagement
+        and performance. My technical expertise includes modern frameworks like
+        Angular and React, along with a strong foundation in full-stack
+        development and cloud technologies such as AWS. I specialize in creating
+        responsive interfaces, integrating APIs, and delivering data-driven
+        solutions tailored to diverse business needs. With a proven ability to
+        lead cross-functional teams and collaborate with international clients,
+        I am committed to driving innovation and excellence. Passionate about
+        crafting seamless user experiences, I strive to combine technical
+        precision with creative problem-solving.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="html_icon.png" alt="HTML Icon" class="skill-icon" />
+          <span>HTML</span>
+        </div>
+        <div class="skill">
+          <img src="css3_icon.png" alt="CSS Icon" class="skill-icon" />
+          <span>CSS</span>
+        </div>
+        <div class="skill">
+          <img
+            src="javascript_icon.png"
+            alt="JavaScript Icon"
+            class="skill-icon"
+          />
+          <span>JavaScript</span>
+        </div>
+
+        <div class="skill">
+          <img src="react js_logo.png" alt="React Icon" class="skill-icon" />
+          <span>React</span>
+        </div>
+
+        <div class="skill">
+          <img src="mongodb_icon.png" alt="Database Icon" class="skill-icon" />
+          <span>MongoDB (NoSQL)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <!-- <section id="experience">
+      <h2>Work Experience</h2>
+      <div>
+        <h3>Central Michigan Life - Digital Media Developer</h3>
+        <p>Jan 2023 – May 2024</p>
+        <p>
+          Developed and maintained CM Life’s website using HTML, CSS, and
+          JavaScript...
+        </p>
+      </div>
+      <div>
+        <h3>Intellect Design Arena - Front-End Developer</h3>
+        <p>Dec 2020 – Oct 2022</p>
+        <p>
+          Led a team to improve user engagement in SPAs by leveraging Angular...
+        </p>
+      </div>
+    </section> -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Flappy Bird Clone</h3>
+        <p>
+          Built a Flappy Bird clone using Phaser 3 and JavaScript with
+          physics-based gameplay and interactive controls.
+        </p>
+        <a
+          id="projectflappy"
+          href="https://revanthyellapragada17.github.io/FlappyBirdGame/"
+          target="projectFrame"
+        >
+          View Project
+        </a>
+      </div>
+      <!-- <section id="project">
+        <h3>Flappy Bird Game</h3>
+        <p>A fun game where you control a bird trying to avoid obstacles.</p>
+        <iframe
+          src="https://revanthyellapragada17.github.io/FlappyBirdGame/"
+          width="100%"
+          height="600px"
+          frameborder="0"
+        ></iframe>
+      </section> -->
+
+      <div class="project">
+        <h3>Battle Simulator</h3>
+        <p>
+          Developed an interactive web-based game featuring dynamic character
+          combat mechanics using HTML, CSS, and JavaScript.
+        </p>
+        <a
+          href="https://revanthyellapragada17.github.io/CivilWarSimulator/"
+          target="projectFrame"
+        >
+          View Project
+        </a>
+      </div>
+    </section>
+
+    <!-- iFrame Section -->
+    <section id="project-display">
+      <h2 id="projectflappy">Project Display</h2>
+      <iframe name="projectFrame"></iframe>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Instagram - 17.1k+ followers as a meme creator</li>
+        <li>YouTube - 600+ subscribers</li>
+        <li>Regional Level U19 Cricket Captain</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
